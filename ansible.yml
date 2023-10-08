@@ -1,0 +1,6 @@
+---
+- name: create the file in a remote server  
+  file:  
+   path: /path/to/file/in/remote/server/devops.txt  
+   state: cat
+    
